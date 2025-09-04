@@ -757,7 +757,7 @@
   font-weight: 400;
 }
 .card-custom:hover {
-  border-color: #bf181d;
+  border: 2px solid #bf181d;
   transform: scale(1.02);
 }
 .card-custom:hover a {
@@ -810,6 +810,8 @@
     .py-5{
   padding: 0;
 }
+
+.card-custom:hover {border: 1px solid #c1c7d0;}
 }
 
   /*app*/
